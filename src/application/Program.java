@@ -24,6 +24,7 @@ public class Program {
 		double balance = sc.nextDouble();
 		System.out.print("Withdraw limit: ");
 		double withDrawLimit = sc.nextDouble();
+		
 		Account account = new Account(number, holder, balance, withDrawLimit);
 		
 		System.out.println();
